@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".publicc.Fragment_public">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/jianbian_daily_top"
+        >
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="日常"
+            android:textColor="@color/white"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/corner_white_half">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/recycleView"/>
+
+        </FrameLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="right|bottom"
+        >
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/jianbian_public_icon_bg1"
+            >
+
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/iv_public_add_friend"
+                android:layout_width="29dp"
+                android:layout_height="29dp"
+                android:src="@drawable/add_f"
+                />
+
+        </FrameLayout>
+
+
+
+        <FrameLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/jianbian_public_icon_bg1"
+            >
+
+            <ImageView
+                android:id="@+id/iv_public_new"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/editt"
+                android:layout_gravity="center"/>
+
+        </FrameLayout>
+
+
+
+        <FrameLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/jianbian_public_icon_bg1"
+            >
+
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/iv_public_message"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:src="@drawable/notif"/>
+
+        </FrameLayout>
+
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="right"
+        android:layout_width="140dp"
+        android:layout_height="135dp"
+        android:src="@drawable/pic_daily"/>
+
+
+
+</FrameLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".publicc.notification.SubActivity_notif_detail_friendApply">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/head_m"
+            />
+
+        <TextView
+            android:id="@+id/tv_c_f_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="李老师"
+            android:textColor="@color/my_gray_text"
+            android:textSize="40dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="对方申请添加您为："
+            android:textSize="20dp"
+            android:textColor="@color/my_gray_text"/>
+        <TextView
+            android:id="@+id/tv_sub_notif_friend_kind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/my_pink"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:elevation="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="留言："
+            android:textColor="@color/my_gray_text"
+            android:textSize="20dp"
+            />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="#e6e6e6">
+
+            <EditText
+                android:gravity="top"
+                android:id="@+id/et_notif_friend_msg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:inputType="textMultiLine"/>
+
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_notif_friend_accept"
+        android:background="@drawable/jianbian_public_icon_bg1"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="同意"
+        android:textSize="25dp"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/btn_notif_friend_refuse"
+        android:background="@drawable/jianbian_public_icon_bg1"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="拒绝"
+        android:textSize="25dp"
+        android:textColor="@color/white"/>
+
+
+</LinearLayout>

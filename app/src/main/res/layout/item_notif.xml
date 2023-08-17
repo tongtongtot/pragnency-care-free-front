@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardUseCompatPadding="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_notif_kind"
+                android:layout_marginLeft="10dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="70dp"
+                android:text="新的好友申请"
+                android:textSize="15dp"
+                android:textColor="@color/my_gray_text"
+                android:gravity="center_vertical"/>
+
+            <TextView
+                android:id="@+id/btn_notif_check"
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:text="查看"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/jianbian_public_icon_bg1"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</FrameLayout>

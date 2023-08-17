@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".publicc.new_friend.Fragment_nf_notFound">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_marginTop="20dp"
+
+            android:layout_width="340dp"
+            android:layout_height="340dp"
+            android:src="@drawable/pic_glass"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="该用户不存在~"
+            android:textColor="#A8D149"
+            android:textSize="30dp"
+            />
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

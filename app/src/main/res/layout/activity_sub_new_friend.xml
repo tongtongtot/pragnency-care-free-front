@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/jianbian_pink_icon"
+    tools:context=".publicc.new_friend.SubActivity_newFriend">
+
+    <FrameLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_public_add_friend_back"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/back"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"/>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           >
+
+           <TextView
+               android:layout_marginTop="10dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="添加好友"
+               android:textColor="@color/white"
+               android:textSize="30sp"
+               android:textStyle="bold"
+               android:gravity="center"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="找到关心您的亲朋好友"
+               android:textColor="@color/white"
+               android:gravity="center"
+               android:textSize="12sp"/>
+
+       </LinearLayout>
+
+    </FrameLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+
+            >
+
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/corner_60_white">
+
+                <EditText
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/et_c_searchText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="请输入用户手机号码"
+                    android:textSize="15sp"
+                    android:textColor="@color/my_gray_text"
+                    android:background="@null"/>
+
+            </FrameLayout>
+
+
+            <ImageView
+                android:background="@drawable/corner_5_white"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:id="@+id/btn_c_searchBtn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/search_pink"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="bottom"
+        android:background="@drawable/corner_top_60_white"
+        android:gravity="center"
+        android:elevation="8dp"
+        >
+
+        <FrameLayout
+            android:id="@+id/fl_chat_finded"
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            >
+
+            <ImageView
+                android:id="@+id/iv_default"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/pic_forum"
+                android:layout_marginTop="80dp"/>
+
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

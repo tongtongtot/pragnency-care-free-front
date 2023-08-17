@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardUseCompatPadding="true"
+        >
+
+        <LinearLayout
+
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+
+            <TextView
+                android:id="@+id/tv_p_title"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="为什么产后容易抑郁？"
+                android:textSize="20sp"
+                android:textColor="@color/my_gray_icon"
+                android:gravity="center_vertical"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/head_m"/>
+                <TextView
+                    android:id="@+id/tv_p_name"
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/my_gray_text"
+                    android:textSize="15sp"
+                    android:text="李医生"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_p_data"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="因为因为因为因为xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+                android:textSize="17sp"
+                android:textColor="@color/my_gray_text"/>
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".forum.Fragment_forum">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:background="@drawable/jianbian_forum_top"
+      >
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="论坛"
+        android:textColor="@color/white"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/corner_white_half">
+
+      <ListView
+          android:layout_marginTop="20dp"
+          android:layout_marginLeft="5dp"
+          android:layout_marginRight="5dp"
+          android:id="@+id/lv_for"
+          android:divider="@null"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+
+          />
+
+    </FrameLayout>
+
+
+
+  </LinearLayout>
+
+
+  <ImageView
+      android:id="@+id/iv_forum_new"
+      android:layout_width="60dp"
+      android:layout_height="60dp"
+      android:src="@drawable/fabu_purpl"
+      android:layout_gravity="right|bottom"
+      android:layout_marginRight="30dp"
+      android:layout_marginBottom="30dp"/>
+
+  <ImageView
+      android:layout_marginTop="10dp"
+      android:layout_marginRight="20dp"
+      android:layout_gravity="right"
+      android:layout_width="140dp"
+      android:layout_height="125dp"
+      android:src="@drawable/pic_forum2"/>
+
+</FrameLayout>

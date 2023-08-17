@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".publicc.daily.BlankFragment_new_feeling">
+
+    <TextView
+        android:id="@+id/tv_new_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请给心情打分:"
+        android:textSize="20sp"
+        android:textColor="@color/my_gray_text"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_flower_1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/change_flower"/>
+
+        <ImageView
+            android:id="@+id/iv_flower_2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/change_flower"/>
+
+        <ImageView
+            android:id="@+id/iv_flower_3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/change_flower"/>
+
+        <ImageView
+            android:id="@+id/iv_flower_4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/change_flower"/>
+
+        <ImageView
+            android:id="@+id/iv_flower_5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/change_flower"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/tv_new_f_content"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:hint="请编辑内容"
+        android:gravity="start"
+        />
+
+
+    <Button
+        android:id="@+id/btn_n_f_submit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/jianbian_public_icon_bg1"
+        android:text="提交"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+</LinearLayout>

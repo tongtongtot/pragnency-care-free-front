@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".publicc.new_friend.Fragment_nf_found">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/head_m"
+                />
+
+            <TextView
+                android:id="@+id/tv_c_f_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="李老师"
+                android:textColor="@color/my_gray_text"
+                android:textSize="40dp"/>
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:elevation="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    留言："
+                android:textColor="@color/my_gray_text"
+                android:textSize="20dp"
+                />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:background="#e6e6e6">
+
+                <EditText
+                    android:gravity="top"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:id="@+id/et_c_f_msg"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:inputType="textMultiLine"/>
+
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_c_apply_n"
+            android:background="@color/my_pink_icon"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="申请普通好友"
+            android:textSize="25dp"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/btn_c_apply_c"
+            android:background="@color/my_pink_icon"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="申请亲密好友"
+            android:textSize="25dp"
+            android:textColor="@color/white"/>
+
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

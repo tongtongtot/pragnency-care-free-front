@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/jianbian_sport_over"
+    tools:context=".professor.daka.SubActivity_daka_sports_detail">
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+       <ImageView
+           android:onClick="back"
+           android:layout_width="60dp"
+           android:layout_height="60dp"
+           android:layout_marginLeft="10dp"
+           android:layout_marginTop="20dp"
+           android:background="@drawable/back"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="  运动计时："
+           android:gravity="center"
+           android:textSize="30sp"
+           android:textColor="@color/white"
+           android:layout_marginTop="20dp"/>
+
+       <Chronometer
+           android:id="@+id/clock"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:textSize="50sp"
+           android:textColor="@color/white"
+           android:layout_marginTop="5dp"
+           />
+
+
+
+       
+
+
+   </LinearLayout>
+
+
+
+    <ImageView
+        android:id="@+id/iv_done"
+        android:visibility="gone"
+        android:layout_marginTop="20dp"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:src="@drawable/pic_congra"
+        />
+
+
+
+        <TextView
+            android:visibility="gone"
+            android:layout_marginBottom="110dp"
+            android:layout_gravity="center"
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  恭喜你完成运动！ "
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:gravity="center"
+            />
+
+    <Button
+        android:visibility="gone"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="返回首页"
+        android:textSize="18sp"
+        android:id="@+id/btn_back"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/corner_30_purple"
+
+
+        />
+
+
+
+
+</FrameLayout>

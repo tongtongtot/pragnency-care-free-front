@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".professor.Fragment_professor">
+
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+            android:orientation="vertical"
+          android:background="@drawable/jianbian_profe_top"
+          >
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="专家建议"
+                android:textColor="@color/white"/>
+
+            <FrameLayout
+                android:background="@drawable/corner_white_half"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                  <ListView
+                      android:divider="@null"
+                      android:id="@+id/lv_pro"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:layout_marginTop="15dp"
+                      android:layout_marginLeft="8dp"
+                      android:layout_marginRight="8dp"
+                      />
+
+            </FrameLayout>
+
+
+      </LinearLayout>
+
+
+
+
+      <ImageView
+          android:id="@+id/iv_daka"
+          android:layout_width="90dp"
+          android:layout_height="90dp"
+          android:src="@drawable/pic_profess"
+            android:layout_gravity="right|bottom"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"/>
+
+      <ImageView
+          android:layout_marginTop="10dp"
+          android:layout_marginRight="20dp"
+          android:layout_gravity="right"
+          android:layout_width="120dp"
+          android:layout_height="120dp"
+          android:src="@drawable/pic_professor"/>
+
+
+</FrameLayout>

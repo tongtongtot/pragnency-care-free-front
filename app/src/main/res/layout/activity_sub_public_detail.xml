@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".publicc.daily.SubActivity_public_detail">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+
+   <LinearLayout
+       android:background="@drawable/jianbian_daily_top"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       >
+
+       <LinearLayout
+           android:layout_marginTop="30dp"
+           android:layout_marginBottom="20dp"
+           android:layout_marginLeft="10dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <ImageView
+               android:onClick="back"
+               android:layout_width="45dp"
+               android:layout_height="45dp"
+               android:background="@drawable/back"/>
+
+           <TextView
+               android:layout_marginLeft="40dp"
+               android:layout_gravity="center"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="30sp"
+               android:text="发布日常"
+               android:textColor="@color/white"/>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:background="@drawable/corner_white_half">
+
+           <TextView
+               android:layout_marginTop="20dp"
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="20dp"
+               android:id="@+id/tv_d_title"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="标题"
+               android:textColor="@color/my_gray_text"
+               android:textSize="25sp"
+               />
+
+           <TextView
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="20dp"
+               android:id="@+id/tv_d_content"
+               android:text="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="start"
+               android:textColor="@color/my_gray_text"
+               android:textSize="20dp"
+               />
+
+
+           <ImageView
+                android:visibility="gone"
+               android:id="@+id/iv_d_pic1"
+               android:layout_width="match_parent"
+               android:layout_height="190dp"
+               android:layout_gravity="center"
+               />
+
+           <LinearLayout
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <ImageView
+                   android:id="@+id/iv_pub_detail_flower"
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:background="@drawable/change_flower"/>
+               <TextView
+                   android:id="@+id/tv_pub_detail_flowerCount"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textSize="14sp"
+                   android:layout_gravity="center_vertical"
+                   android:text="100"
+                   android:textStyle="bold"
+                   />
+
+               <ImageView
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:background="@drawable/comment"/>
+               <TextView
+                   android:id="@+id/tv_pub_detail_commentCount"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textSize="14sp"
+                   android:layout_gravity="center_vertical"
+                   android:text="100"
+                   android:textStyle="bold"
+                   />
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               >
+
+               <EditText
+                   android:id="@+id/et_p_d_comment"
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:hint="写下你的评论..."
+                   android:textSize="18sp"
+                   android:gravity="center_vertical"
+                   android:background="@drawable/corner_60_white"
+                   />
+               <Button
+                   android:id="@+id/btn_p_d_send"
+                   android:layout_width="40dp"
+                   android:layout_height="40dp"
+                   android:background="@drawable/send"/>
+
+           </LinearLayout>
+
+           <ListView
+               android:divider="@null"
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="20dp"
+               android:id="@+id/lv_d"
+               android:layout_width="match_parent"
+               android:layout_height="200dp"/>
+
+
+       </LinearLayout>
+
+
+
+   </LinearLayout>
+
+
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="right"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/pic_daily"/>
+
+
+    </FrameLayout>
+
+
+
+
+</ScrollView>
