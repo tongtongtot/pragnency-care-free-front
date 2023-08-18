@@ -37,11 +37,13 @@
 
 
         <ImageView
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="50dp"
             android:layout_gravity="center_horizontal"
-            android:layout_width="320dp"
-            android:layout_height="320dp"
-            android:src="@drawable/mon2_login"/>
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:scaleX="1.25"
+            android:scaleY="1.25"
+            android:src="@drawable/register"/>
 
         <LinearLayout
             android:layout_marginLeft="20dp"
