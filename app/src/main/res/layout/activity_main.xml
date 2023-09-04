@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/my_gray_background"
-    tools:context=".other.MainActivity">
+    tools:context="pregproject.pregproject.other.MainActivity">
 
 
 

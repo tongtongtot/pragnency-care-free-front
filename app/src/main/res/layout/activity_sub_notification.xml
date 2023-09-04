@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".publicc.notification.SubActivity_notification">
+    tools:context="pregproject.pregproject.publicc.notification.SubActivity_notification">
 
     <LinearLayout
         android:background="@drawable/jianbian_daily_top"

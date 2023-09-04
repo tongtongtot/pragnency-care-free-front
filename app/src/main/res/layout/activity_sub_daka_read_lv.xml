@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFF4D7"
-    tools:context=".professor.daka.SubActivity_daka_read_lv">
+    tools:context="pregproject.pregproject.professor.daka.SubActivity_daka_read_lv">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/jianbian_read_bg"
-    tools:context=".professor.daka.SubActivity_daka_read_detail">
+    tools:context="pregproject.pregproject.professor.daka.SubActivity_daka_read_detail">
 
 
     <LinearLayout

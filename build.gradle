@@ -15,6 +15,10 @@ buildscript {
     }
 }
 
+ext {
+    defaultTargetSdkVersion = 33
+}
+
 task clean(type: Delete) {
     delete rootProject.buildDir
 }

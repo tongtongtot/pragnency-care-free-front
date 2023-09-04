@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/jianbian_sport_over"
-    tools:context=".professor.daka.SubActivity_daka_sports_detail">
+    tools:context="pregproject.pregproject.professor.daka.SubActivity_daka_sports_detail">
 
 
    <LinearLayout

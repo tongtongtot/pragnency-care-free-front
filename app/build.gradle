@@ -3,14 +3,14 @@ plugins {
 }
 
 android {
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.pregproject"
+        applicationId "pregproject.pregproject"
         minSdk 21
-        targetSdk 32
-        versionCode 1
-        versionName "1.0"
+        targetSdkVersion defaultTargetSdkVersion
+        versionCode 4
+        versionName "1.01"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

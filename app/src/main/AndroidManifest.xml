@@ -22,52 +22,52 @@
         android:usesCleartextTraffic="true"
         android:theme="@style/Theme.PregProject">
         <activity
-            android:name=".identity_Pro.MainActivity_pro"
+            android:name="pregproject.pregproject.identity_Pro.MainActivity_pro"
             android:exported="false" />
         <activity
-            android:name=".forum.SubActivity_forum_add"
+            android:name="pregproject.pregproject.forum.SubActivity_forum_add"
             android:exported="false" />
         <activity
-            android:name=".professor.daka.SubActivity_daka_sports_detail"
+            android:name="pregproject.pregproject.professor.daka.SubActivity_daka_sports_detail"
             android:exported="false" />
         <activity
-            android:name=".professor.daka.SubActivity_daka_sport_a"
+            android:name="pregproject.pregproject.professor.daka.SubActivity_daka_sport_a"
             android:exported="false" />
         <activity
-            android:name=".professor.daka.SubActivity_daka_read_detail"
+            android:name="pregproject.pregproject.professor.daka.SubActivity_daka_read_detail"
             android:exported="false" />
         <activity
-            android:name=".professor.daka.SubActivity_daka_read_lv"
+            android:name="pregproject.pregproject.professor.daka.SubActivity_daka_read_lv"
             android:exported="false" />
         <activity
-            android:name=".professor.daka.SubActivity_daka_read_a"
+            android:name="pregproject.pregproject.professor.daka.SubActivity_daka_read_a"
             android:exported="false" />
         <activity
-            android:name=".professor.SubActivity_pro_detail"
+            android:name="pregproject.pregproject.professor.SubActivity_pro_detail"
             android:exported="false" />
         <activity
-            android:name=".publicc.notification.SubActivity_notif_detail_friendApply"
+            android:name="pregproject.pregproject.publicc.notification.SubActivity_notif_detail_friendApply"
             android:exported="false" />
         <activity
-            android:name=".publicc.daily.SubActivity_new_daily"
+            android:name="pregproject.pregproject.publicc.daily.SubActivity_new_daily"
             android:exported="false" />
         <activity
-            android:name=".publicc.notification.SubActivity_notification"
+            android:name="pregproject.pregproject.publicc.notification.SubActivity_notification"
             android:exported="false" />
         <activity
-            android:name=".publicc.daily.SubActivity_public_detail"
+            android:name="pregproject.pregproject.publicc.daily.SubActivity_public_detail"
             android:exported="false" />
         <activity
-            android:name=".other.MainActivity_register"
+            android:name="pregproject.pregproject.other.MainActivity_register"
             android:exported="true" />
         <activity
-            android:name=".other.MainActivity"
+            android:name="pregproject.pregproject.other.MainActivity"
             android:exported="false" />
         <activity
-            android:name=".publicc.new_friend.SubActivity_newFriend"
+            android:name="pregproject.pregproject.publicc.new_friend.SubActivity_newFriend"
             android:exported="false" />
         <activity
-            android:name=".other.MainActivity_login"
+            android:name="pregproject.pregproject.other.MainActivity_login"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -75,7 +75,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".other.NotificationActivity" />
+        <activity android:name="pregproject.pregproject.other.NotificationActivity" />
     </application>
 
 </manifest>
