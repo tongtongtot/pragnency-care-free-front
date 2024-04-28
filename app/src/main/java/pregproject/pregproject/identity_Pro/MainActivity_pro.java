@@ -70,7 +70,7 @@ public class MainActivity_pro extends AppCompatActivity {
         /**
          * 查询数据库的Expertpost表，放到items数组里。
          */
-        String url = "http://119.91.21.231:8080/women/topicProServlet";    //注①
+        String url = "http://114.132.251.166:2233/women/topicProServlet";    //注①
         String tag = "expertpost";    //注②
 
         //取得请求队列

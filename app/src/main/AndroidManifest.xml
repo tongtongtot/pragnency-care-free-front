@@ -23,49 +23,49 @@
         android:theme="@style/Theme.PregProject">
         <activity
             android:name="pregproject.pregproject.identity_Pro.MainActivity_pro"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name="pregproject.pregproject.forum.SubActivity_forum_add"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name="pregproject.pregproject.professor.daka.SubActivity_daka_sports_detail"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name="pregproject.pregproject.professor.daka.SubActivity_daka_sport_a"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name="pregproject.pregproject.professor.daka.SubActivity_daka_read_detail"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name="pregproject.pregproject.professor.daka.SubActivity_daka_read_lv"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name="pregproject.pregproject.professor.daka.SubActivity_daka_read_a"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name="pregproject.pregproject.professor.SubActivity_pro_detail"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name="pregproject.pregproject.publicc.notification.SubActivity_notif_detail_friendApply"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name="pregproject.pregproject.publicc.daily.SubActivity_new_daily"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name="pregproject.pregproject.publicc.notification.SubActivity_notification"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name="pregproject.pregproject.publicc.daily.SubActivity_public_detail"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name="pregproject.pregproject.other.MainActivity_register"
             android:exported="true" />
         <activity
             android:name="pregproject.pregproject.other.MainActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name="pregproject.pregproject.publicc.new_friend.SubActivity_newFriend"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name="pregproject.pregproject.other.MainActivity_login"
             android:exported="true">

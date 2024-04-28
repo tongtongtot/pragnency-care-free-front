@@ -67,7 +67,7 @@ public class SubActivity_notif_detail_friendApply extends AppCompatActivity {
             tv_sub_notif_friend_kind.setText("亲密好友");
 
         }
-        String url = "http://119.91.21.231:8080/women/FinduserServlet";    //注①
+        String url = "http://114.132.251.166:2233/women/FinduserServlet";    //注①
         String tag = "finduser";    //注②
 
         //取得请求队列
@@ -168,7 +168,7 @@ public class SubActivity_notif_detail_friendApply extends AppCompatActivity {
                 }
                 if(flag==1){
                     //请求地址
-                    String url = "http://119.91.21.231:8080/women/ApplyServlet";    //注①
+                    String url = "http://114.132.251.166:2233/women/ApplyServlet";    //注①
                     String tag = "friend";    //注②
 
                     //取得请求队列
@@ -230,7 +230,7 @@ public class SubActivity_notif_detail_friendApply extends AppCompatActivity {
         btn_notif_friend_refuse.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String url = "http://119.91.21.231:8080/women/ApplyServlet";    //注①
+                String url = "http://114.132.251.166:2233/women/ApplyServlet";    //注①
                 String tag = "friend";    //注②
 
                 //取得请求队列

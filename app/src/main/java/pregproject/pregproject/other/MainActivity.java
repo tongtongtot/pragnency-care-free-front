@@ -173,7 +173,7 @@ public class MainActivity extends AppCompatActivity {
                          try {
 
                              //请求地址
-                             String url = "http://119.91.21.231:8080/women/ApplyServlet";    //注①
+                             String url = "http://114.132.251.166:2233/women/ApplyServlet";    //注①
                              String tag = "loveapply";    //注②
 
                              //取得请求队列

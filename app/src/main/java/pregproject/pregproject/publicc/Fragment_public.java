@@ -114,7 +114,7 @@ public class Fragment_public extends Fragment {
         /**
          * 查出Lifepost的所有数据放在DataList数组里。-------------------------------------------------------------
          */
-        String url = "http://119.91.21.231:8080/women/LifepostServlet";    //注①
+        String url = "http://114.132.251.166:2233/women/LifepostServlet";    //注①
         String tag = "lifepost";    //注②
 
         //取得请求队列

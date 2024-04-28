@@ -66,7 +66,7 @@ public class MainActivity_login extends AppCompatActivity {
                 }
                 else {
                     //请求地址
-                    String url = "http://119.91.21.231:8080/women/LoginServlet";    //注①
+                    String url = "http://114.132.251.166:2233/women/LoginServlet";    //注①
                     String tag = "regist";    //注②
 
                     //取得请求队列

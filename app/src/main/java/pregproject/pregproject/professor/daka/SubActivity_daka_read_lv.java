@@ -51,7 +51,7 @@ public class SubActivity_daka_read_lv extends AppCompatActivity {
         /**
          * 把查出来的孕妇阅读打卡的数据（type==2的）放进数组items里面。---------------------------------------------------------------------
          */
-        String url = "http://119.91.21.231:8080/women/ExpertpostServlet";    //注①
+        String url = "http://114.132.251.166:2233/women/ExpertpostServlet";    //注①
         String tag = "expertpost";    //注②
 
         //取得请求队列

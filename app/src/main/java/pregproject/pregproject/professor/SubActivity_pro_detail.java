@@ -79,7 +79,7 @@ public class SubActivity_pro_detail extends AppCompatActivity {
             /**
              * 查出postid对应在Expertpost表的数据存到item变量里。--专家界面
              */
-            String url = "http://119.91.21.231:8080/women/detailServlet";    //注①
+            String url = "http://114.132.251.166:2233/women/detailServlet";    //注①
             String tag = "expertpost";    //注②
 
             //取得请求队列
@@ -152,7 +152,7 @@ public class SubActivity_pro_detail extends AppCompatActivity {
                          * 查询评论表，也要判断type值，如果值是2，那么就是论坛版块的评论，如果是1那就是专家版块的评论，再找到属于postid变量的所有评论，放在comment_items里面-------------------------------------------
                          */
 
-                        String url = "http://119.91.21.231:8080/women/topicServlet";    //注①
+                        String url = "http://114.132.251.166:2233/women/topicServlet";    //注①
                         String tag = "comments";    //注②
 
                         //取得请求队列
@@ -213,7 +213,7 @@ public class SubActivity_pro_detail extends AppCompatActivity {
                                             /**
                                              * 把myComment和其他需要的数据（id是这个变量：post_id）存到评论数据库。
                                              */
-                                            String url = "http://119.91.21.231:8080/women/topicServlet";    //注①
+                                            String url = "http://114.132.251.166:2233/women/topicServlet";    //注①
                                             String tag = "expertpost";    //注②
 
                                             //取得请求队列
@@ -316,7 +316,7 @@ public class SubActivity_pro_detail extends AppCompatActivity {
             /**
              * 查出postid对应在post表的数据存到item变量里。
              */
-            String url = "http://119.91.21.231:8080/women/detail01Servlet";    //注①
+            String url = "http://114.132.251.166:2233/women/detail01Servlet";    //注①
             String tag = "post";    //注②
 
             //取得请求队列
@@ -389,7 +389,7 @@ public class SubActivity_pro_detail extends AppCompatActivity {
                          * 查询评论表，也要判断type值，如果值是2，那么就是论坛版块的评论，如果是1那就是专家版块的评论，再找到属于postid变量的所有评论，放在comment_items里面-------------------------------------------
                          */
 
-                        String url = "http://119.91.21.231:8080/women/postServlet";    //注①
+                        String url = "http://114.132.251.166:2233/women/postServlet";    //注①
                         String tag = "comments";    //注②
 
                         //取得请求队列
@@ -443,7 +443,7 @@ public class SubActivity_pro_detail extends AppCompatActivity {
                                             /**
                                              * 把myComment和其他需要的数据（id是这个变量：post_id）存到评论数据库。
                                              */
-                                            String url = "http://119.91.21.231:8080/women/postServlet";    //注①
+                                            String url = "http://114.132.251.166:2233/women/postServlet";    //注①
                                             String tag = "expertpost";    //注②
 
                                             //取得请求队列

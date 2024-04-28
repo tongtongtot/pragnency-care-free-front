@@ -67,7 +67,7 @@ public class SubActivity_notification extends AppCompatActivity {
          * 数据库查Applymsg类，存到items数组里面。
          */
         //请求地址
-        String url = "http://119.91.21.231:8080/women/ApplyServlet";    //注①
+        String url = "http://114.132.251.166:2233/women/ApplyServlet";    //注①
         String tag = "apply";    //注②
 
         //取得请求队列
@@ -121,7 +121,7 @@ public class SubActivity_notification extends AppCompatActivity {
                                     startActivity(intent);    //一定要跳转
 
                                 } else if (items.get(i).getApplyType() == 3) {
-                                    String url = "http://119.91.21.231:8080/women/ApplyServlet";    //注①
+                                    String url = "http://114.132.251.166:2233/women/ApplyServlet";    //注①
                                     String tag = "friend";    //注②
 
                                     //取得请求队列

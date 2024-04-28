@@ -70,7 +70,7 @@ public class SubActivity_forum_add extends AppCompatActivity {
                 if (data != null) {
                     bit1 = BitmapFactory.decodeStream(cr.openInputStream(uri));//uri转bitmap
                     iv_h_pic1.setImageBitmap(bit1);//显示出选择的照片
-                    pic_url="http://119.91.21.231:8080/women_pic/"+nowuser.user_id+create+".jpeg";
+                    pic_url="http://114.132.251.166:2233/women_pic/"+nowuser.user_id+create+".jpeg";
                 }
             } else  if (requestCode == 0x2) {
                 if (data != null) {
@@ -163,7 +163,7 @@ public class SubActivity_forum_add extends AppCompatActivity {
                      * 把以上变量存到论坛数据库------------------------------------------------------------------------------------
                      */
                     //请求地址
-                    String url = "http://119.91.21.231:8080/women/postServlet";    //注①
+                    String url = "http://114.132.251.166:2233/women/postServlet";    //注①
                     String tag = "post";    //注②
 
                     //取得请求队列
@@ -221,8 +221,8 @@ public class SubActivity_forum_add extends AppCompatActivity {
                      */
                     System.out.println("进到专家数据库！！！！");
                     //请求地址
-                    //String url = "http://119.91.21.231:8080/women/ExpertpostServlet";    //注①
-                    String url = "http://119.91.21.231:8080/women/postProServlet";
+                    //String url = "http://114.132.251.166:2233/women/ExpertpostServlet";    //注①
+                    String url = "http://114.132.251.166:2233/women/postProServlet";
                     String tag = "lifepost";    //注②
 
                     //取得请求队列

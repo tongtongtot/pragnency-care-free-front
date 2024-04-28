@@ -83,7 +83,7 @@ public class SubActivity_newFriend extends AppCompatActivity {
                  * 如果找到，设置found变量=true,不然设为false。
                  */
                 //请求地址
-                String url = "http://119.91.21.231:8080/women/FinduserServlet";    //注①
+                String url = "http://114.132.251.166:2233/women/FinduserServlet";    //注①
                 String tag = "regist";    //注②
 
                 //取得请求队列

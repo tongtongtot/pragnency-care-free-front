@@ -88,7 +88,7 @@ public class Fragment_forum extends Fragment {
         /**
          * 查询Post表，找出所有帖子的信息放进items数组里面。（因为post和Expertpost表很像，所以这里items用Expertpost的数据结构。）
          */
-        String url = "http://119.91.21.231:8080/women/topicServlet";    //注①
+        String url = "http://114.132.251.166:2233/women/topicServlet";    //注①
         String tag = "lifepost";    //注②
 
         //取得请求队列

@@ -123,7 +123,7 @@ public class MainActivity_register extends AppCompatActivity {
              * 将信息插入数据库,变量命名同数据库的属性的命名。
              */
             //请求地址
-            String url = "http://119.91.21.231:8080/women/RegistServlet";    //注①
+            String url = "http://114.132.251.166:2233/women/RegistServlet";    //注①
             String tag = "regist";    //注②
 
             //取得请求队列

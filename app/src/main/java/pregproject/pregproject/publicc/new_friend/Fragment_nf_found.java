@@ -91,7 +91,7 @@ public class Fragment_nf_found extends Fragment {
                 }else{
 
                     //请求地址
-                    String url = "http://119.91.21.231:8080/women/ApplyServlet";    //注①
+                    String url = "http://114.132.251.166:2233/women/ApplyServlet";    //注①
                     String tag = "friend";    //注②
 
                     //取得请求队列
@@ -161,7 +161,7 @@ public class Fragment_nf_found extends Fragment {
                 }else{
 
                     //请求地址
-                    String url = "http://119.91.21.231:8080/women/ApplyServlet";    //注①
+                    String url = "http://114.132.251.166:2233/women/ApplyServlet";    //注①
                     String tag = "love";    //注②
 
                     //取得请求队列

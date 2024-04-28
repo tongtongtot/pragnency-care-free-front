@@ -83,7 +83,7 @@ public class SubActivity_public_detail extends AppCompatActivity {
         /**
          * 查询出post_id在Lifepost表里的内容，存到lifepost变量里----------------------------------------------------------
          */
-        String url = "http://119.91.21.231:8080/women/LifepostServlet";    //注①
+        String url = "http://114.132.251.166:2233/women/LifepostServlet";    //注①
         String tag = "lifepost";    //注②
         comment_items.clear();
         //取得请求队列
@@ -186,7 +186,7 @@ public class SubActivity_public_detail extends AppCompatActivity {
 
                     tv_pub_detail_commentCount.setText(String.valueOf(lifepost.getCommentnum()));
 
-                    String url = "http://119.91.21.231:8080/women/LifepostServlet";    //注①
+                    String url = "http://114.132.251.166:2233/women/LifepostServlet";    //注①
                     String tag = "lifepost";    //注②
 
                     //取得请求队列
@@ -243,7 +243,7 @@ public class SubActivity_public_detail extends AppCompatActivity {
                                             return;
                                         }
                                         iv_pub_detail_flower.setSelected(true);
-                                        String url = "http://119.91.21.231:8080/women/LifepostServlet";    //注①
+                                        String url = "http://114.132.251.166:2233/women/LifepostServlet";    //注①
                                         String tag = "like";    //注②
 
                                         //取得请求队列
@@ -326,7 +326,7 @@ public class SubActivity_public_detail extends AppCompatActivity {
                                         /**
                                          * 把myComment和其他需要的数据（id是这个变量：post_id）存到评论数据库。
                                          */
-                                        String url = "http://119.91.21.231:8080/women/LifepostServlet";    //注①
+                                        String url = "http://114.132.251.166:2233/women/LifepostServlet";    //注①
                                         String tag = "lifepost";    //注②
 
                                         //取得请求队列

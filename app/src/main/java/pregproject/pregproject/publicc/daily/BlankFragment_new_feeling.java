@@ -162,7 +162,7 @@ public class BlankFragment_new_feeling extends Fragment {
                 /**
                  * 上传以上变量的内容到数据库Lifepost表-------------------------------------------------------------------
                  */  //请求地址
-                String url = "http://119.91.21.231:8080/women/LifepostServlet";    //注①
+                String url = "http://114.132.251.166:2233/women/LifepostServlet";    //注①
                 String tag = "lifepost";    //注②
 
                 //取得请求队列
